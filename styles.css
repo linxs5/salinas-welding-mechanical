@@ -484,7 +484,7 @@ h3 {
   align-items: start;
 }
 
-.quote-form {
+.quote-section > form {
   padding: 28px;
   background: var(--surface);
   border: 1px solid var(--line);
@@ -492,6 +492,7 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.hidden,
 .hidden-field {
   display: none;
 }
